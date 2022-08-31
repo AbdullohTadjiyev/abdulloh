@@ -1,0 +1,557 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner .head {
+    width: 100%;
+    height: 48px;
+    background-color: #323941;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner .head .left ul {
+    display: flex;
+    padding: 15px 150px;
+    gap: 20px;
+    color: white;
+}
+
+.conteiner .head .left {
+    width: 70%;
+    height: 100%;
+}
+
+.conteiner .head .right ul {
+    display: flex;
+    color: white;
+    gap:10px;
+    padding: 11px 100px;
+    font-size: 20px;
+}
+
+.conteiner .head .right {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.conteiner .header {
+    width: 100%;
+    height: 101px;
+    background-color: #fff;
+    display: flex;
+}
+
+.conteiner .header .left {
+    width: 70%;
+    height: 100%;
+    padding: 20px 150px;
+}
+
+.conteiner .header .right {
+    width: 30%;
+    height: 100%;
+}
+
+.conteiner .header .right .word {
+    padding: 20px 90px;
+}
+
+.conteiner .header .right .word1 {
+    position: absolute;
+    padding-left: 170px;
+    top: 75px;
+}
+
+.conteiner .header .right .word2 {
+    position: absolute;
+    color: #009EFF;
+    padding-left: 170px;
+    top: 95px;
+}
+
+.conteiner .free {
+    width: 100%;
+    height: 260px;
+    background-color: #323941;
+}
+
+.conteiner .free .top {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding-left: 150px;
+    gap: 30px;
+}
+
+.conteiner .free .top .img1 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    background-color: #009EFF;
+    padding: 0px 29px;
+    color: #fff;
+}
+
+.conteiner .free .top .img2 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .top .img3 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .top .img4 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .top .img5 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .top .img6 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .top .img7 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+
+}
+
+.conteiner .free .buttom {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding-left: 150px;
+    gap: 30px;
+}
+
+.conteiner .free .buttom .img1 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img2 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img3 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img4 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img5 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img6 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+}
+.conteiner .free .buttom .img7 {
+    width: 137px;
+    height: 130px;
+    border: 1px solid transparent;
+    padding: 0px 29px;
+    color: #666A71;
+    padding-top: 20px;
+    font-size: 23px;
+}
+.conteiner .day {
+    width: 100%;
+    height: 48px;
+    background-color: #009EFF;
+}
+.conteiner .day p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    padding-left: 560px;
+}
+.conteiner .max {
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+    display: flex;
+}
+.conteiner .max .left {
+    width: 50%;
+    height: 100%;
+} 
+.conteiner .max .right {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    padding-top: 50px   ;
+} 
+.conteiner .max .left .word {
+    width: 89px;
+    height: 27px;
+    border: 1px solid #6ACD68;
+    color: #6ACD68;
+    padding: 2px;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.conteiner .max .left .word1 {
+    font-size: 80px;
+    font-weight: 700;
+    padding-left: 150px;
+    padding-top: 6px;
+    color: #323941;
+}
+.conteiner .max .left .border {
+    width: 545px;
+    height: 280px;
+    border: 1px solid #30373E;
+    margin-left: 150px;
+}
+.conteiner .max .left .border .text {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    color: #30373E;
+}
+.conteiner .max .left .border .bord {
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+}
+.conteiner .max .left .border .bord .text1 {
+    width: 161px;
+    height: 36px;
+    border: 1px solid #30373E;
+    padding: 6px;
+    padding-left: 35px;
+}
+.conteiner .max .left .border .bord .text2 {
+    width: 161px;
+    height: 36px;
+    border: 1px solid #30373E;
+    padding: 6px;
+    padding-left: 35px;
+}
+.conteiner .max .left .border .bord .text3 {
+    width: 161px;
+    height: 36px;
+    border: 1px solid #30373E;
+    padding: 6px;
+    padding-left: 35px;
+}
+.conteiner .max .left .border .bord1 {
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+}
+.conteiner .max .left .border .bord1 .text1 {
+    font-size: 18px;
+    font-weight: 400px;
+    padding-top: 20px;
+}
+.conteiner .max .left .border .bord1 .text1 .abu {
+    font-size: 35px;
+    font-weight: 700;
+}
+.conteiner .max .left .border .bord1 .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #009EFF;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.conteiner .max .left .border .bord1 .text3 {
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.conteiner .max .left .border .bord2 {
+    display: flex;
+    padding-left: 10px;
+    gap: 20px;
+}
+.conteiner .max .left .border .bord2 .text4 {
+    width: 239px;
+    height: 48px;
+    border: 1px solid transparent;
+    background-color: #009EFF;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    padding-left: 65px;
+}
+.conteiner .max .left .border .bord2 .text5 {
+    width: 239px;
+    height: 48px;
+    border: 1px solid transparent;
+    background-color: #009EFF;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    padding-left: 60px;
+}
+.conteiner .max .right .items {
+    display: flex;
+    gap: 20px;
+    padding-left: 90px;
+}
+
+.conteiner .max .right .items .item_1 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_2 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_3 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_4 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_5 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #009EFF;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_6 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .right .items .item_7 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+}
+.conteiner .max .left .taxs {
+    position: relative;
+}
+
+.conteiner .max .left .taxs .tax {
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 150px;
+    padding-top: 20px;
+    color: #666A71;
+}
+.conteiner .max .left .taxs .tax1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 290px;
+    top: 20px;
+}
+.conteiner .with {
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+.conteiner .with .one  {
+    width: 30%;
+    height: 100%;
+    padding-left: 150px;
+    position: relative;
+}
+.conteiner .with .two  {
+    width: 20%;
+    height: 100%;
+    position: relative;
+
+}
+.conteiner .with .three  {
+    width: 20%;
+    height: 100%;
+    position: relative;
+
+}
+.conteiner .with .four  {
+    width: 30%;
+    height: 100%;
+    width: 236px;
+    height: 63px;
+    border: 1px solid #009EFF;
+    background-color: #009EFF;
+    position: relative;
+
+}
+.conteiner .with .one .tax {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666A71;
+    left: 200px;
+    top:    0px;
+}
+.conteiner .with .two .tax1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666A71;
+    left: 40px;
+    top: 0;
+}
+.conteiner .with .three .tax2 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666A71;
+    left: 45px;
+    top: 0;
+}
+.conteiner .with .four .tax3 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    left: 50px;
+    top: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+.conteiner .with .four  .img  {
+    padding: 12px;
+}
+.conteiner .mile {
+    width: 100%;
+    height: 195px;
+    width: 76%;
+    height: 195px;
+    border: 1px solid transparent;
+    background-color: #F7F7F7;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+}
+.conteiner .mile .left {
+    width: 70%;
+    height: 100%;
+}
+.conteiner .mile .right {
+    width:30%;
+    height: 100%;
+    position: relative;
+}
+.conteiner .mile .right img {
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+.conteiner .mile .right {
+    background-image: url("./imgs/img11.png");
+    background-repeat: no-repeat;
+    margin-left: 400px;
+}
+.conteiner .mile .right .text2 {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    top: 30px;
+    right: 95px;
+    color: #fff;
+
+}
+.conteiner .mile .right .text3 {
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 40px;
+    color: #fff;
+}
+.conteiner .mile .left .text {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: #323941;
+}
+.conteiner .mile .left .text1 {
+    color: #323941;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
